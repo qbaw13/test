@@ -1,5 +1,12 @@
 {
   "GrowthRate": {
     "percentageRate": "int"
+  },
+  "User": {
+    "name": "string",
+    "surname": "string",
+    "investmentsCount": "int",
+    "premium": "boolean",
+    "createdAt": "date"
   }
 }
