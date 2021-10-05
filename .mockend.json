@@ -1,12 +1,17 @@
 {
   "GrowthRate": {
-    "percentageRate": "int"
+    "percentageRate": { "int": { "min": 0, "max": 100 } }
   },
   "User": {
-    "name": "string",
-    "surname": "string",
-    "investmentsCount": "int",
-    "premium": "boolean",
-    "createdAt": "date"
+    "name": { "string": {} },
+    "surname": { "string": {} },
+    "investmentsCount": { "int": { "min": 0, "max": 100 } },
+    "premium": { "boolean": {} },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    }
   }
 }
