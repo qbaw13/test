@@ -1,7 +1,4 @@
 {
-  "GrowthRate": {
-    "percentageRate": { "int": { "min": 0, "max": 100 } }
-  },
   "User": {
     "name": { "regexp": "[A-Z][a-z]{5,10}" },
     "surname": { "regexp": "[A-Z][a-z]{5,10}" },
