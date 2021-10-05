@@ -11,7 +11,7 @@
       }
     }
   },
-  "Test": {
-    "name": { "regexp": "[A-Z][a-z]{5,10}" }
+  "Rate": {
+    "percentageRate": { "int": { "min": 0, "max": 100 } }
   }
 }
